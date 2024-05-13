@@ -19,7 +19,7 @@ pipeline {
             }
 
    
-    stage('Create a Docker image from the Package Insure-Me.jar file') {
+    stage('Create a Docker image from the Package app.jar file') {
       steps {
         sh 'docker build -t anshu9980/banking:1.0 .'
                     }
